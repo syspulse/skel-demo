@@ -1,0 +1,28 @@
+[0m2021.08.01 16:19:55 INFO  Started: Metals version 0.10.5 in workspace '/home/andreyk/prj/syspulse/skel/skel/skel-telemetry' for client Visual Studio Code 1.58.2.[0m
+[0m2021.08.01 16:19:57 INFO  time: initialize in 1.92s[0m
+[0m2021.08.01 16:19:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.01 16:19:57 WARN  no build tool detected in workspace '/home/andreyk/prj/syspulse/skel/skel/skel-telemetry'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.01 16:20:30 WARN  no build target for: /home/andreyk/prj/syspulse/skel/skel/skel-telemetry/src/main/scala/io/syspulse/skel/telemetry/App.scala[0m
+[0m2021.08.01 16:20:34 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2021.08.01 16:20:37 INFO  time: code lens generation in 6.31s[0m
+[0m2021.08.01 16:20:39 WARN  no build target for: /home/andreyk/prj/syspulse/skel/skel/skel-telemetry/src/main/scala/io/syspulse/skel/telemetry/EkmTelemetry.scala[0m
+Aug. 01, 2021 4:28:14 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+[0m2021.08.01 19:46:04 INFO  shutting down Metals[0m
+[0m2021.09.16 11:06:14 INFO  Started: Metals version 0.10.6 in workspace '/home/andreyk/prj/syspulse/skel/skel/demo/skel-ekm' for client Visual Studio Code 1.60.0.[0m
+[0m2021.09.16 11:06:15 INFO  time: initialize in 1.2s[0m
+[0m2021.09.16 11:06:15 WARN  Build server is not auto-connectable.[0m
+[0m2021.09.16 11:06:24 INFO  shutting down Metals[0m
+[0m2021.09.16 11:06:24 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:834)
+[0m

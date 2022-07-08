@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: skel-npp-configmap-prod
+  namespace: default
+data:
+  NPP_INTERVAL: "86400000"
+  NPP_URL: "http://www.srp.ecocentre.kiev.ua/MEDO-PS"
